@@ -6,10 +6,21 @@ import PayPage from './Pages/PayPage/PayPage';
 import RegistrationPage from './Pages/RegistrationPage/RegistrationPage';
 import SliderPage from './Pages/SliderPage/SliderPage';
 import Documentation from './Pages/DocumentationPage/Documentation';
+import Card from './components/Card/Card';
+import Header from './components/Header/Header';
+import WeWork from './components/WeWork/WeWork';
+import Drop from './components/Drop/Drop';
+import AboutUs from './components/AboutUs/AboutUs';
+import Maecenas from './components/Maecenas/Maecenas';
+import OurMission from './components/OurMission/OurMission';
+import OurTeam from './components/OurTeam/OurTeam';
+import Footer from './components/ComponentsPage1/Footer/Footer';
+
 
 function App() {
 
   return (
+
     <div >
     <Routes> 
     <Route path="/" element={ 
