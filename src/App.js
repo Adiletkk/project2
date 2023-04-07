@@ -7,10 +7,10 @@ import RegistrationPage from './Pages/RegistrationPage/RegistrationPage';
 import SliderPage from './Pages/SliderPage/SliderPage';
 import Documentation from './Pages/DocumentationPage/Documentation';
 
+
 function App() {
 
   return (
-    <div >
     <Routes> 
     <Route path="/" element={ 
       <HomePage/> 
@@ -37,7 +37,6 @@ function App() {
       <About/> 
     }/>  */}
     </Routes>
-    </div>
   );
 }
 
