@@ -15,19 +15,34 @@ import "react-alice-carousel/lib/scss/alice-carousel.scss";
 
 
 
+
 function App() {
   return (
-    <div className="App">
-      {/* <Thailand/>
-      <Explore/>
-      <FastWay/>
-      <OurFavorite/>
-      <FeaturTour/>
-      <TourCity/>
-    <LatestPost/>
-    <Footer/> */}
-    <TravelList/>
-    </div>
+
+    <Routes>
+      <Route path="/" element={
+        <HomePage />
+      } />
+      <Route path="/Header" element={
+        <HeaderPage />
+      } />
+      <Route path="/paypage" element={
+        <PayPage />
+      } />
+      <Route path="/Regist" element={
+        <RegistrationPage />
+      } />
+      <Route path="/Slider" element={
+        <SliderPage />
+      } />
+      <Route path="/docum" element={
+        <Documentation />
+      } />
+      <Route path='/contact' element={<ContactPage />} />
+      <Route path="/about" element={<AboutPage/>} />
+    </Routes>
+   
+
   );
 }
 

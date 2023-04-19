@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,38 @@
   font-family: "Poppins", sans-serif;
 
 }
+=======
+*{ 
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+
+>>>>>>> 71e58ab0123f217f46841ec766ec7c47f55225dd
 .container {
   padding: 0 144px;
+}
+
+.slick-slider {
+  width: 1152px;
+}
+
+.slick-prev {
+  left: 0px;
+  top: 440px;
+}
+
+.slick-next {
+  left: 64px;
+  top: 440px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
 }
