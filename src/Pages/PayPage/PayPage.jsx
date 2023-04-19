@@ -5,7 +5,7 @@ import star from "../../assets/icon/star.png";
 import avatar from "../../assets/icon/Avatar.png";
 import dude from "../../assets/icon/dude.png";
 import calendar from "../../assets/icon/calendar.png";
-import Footer from "../../components/ComponentsPage1/Footer/Footer";
+// import Footer from "../../components/ComponentsPage1/Footer/Footer";
 import Header from "../../components/Header/Header";
 import p from "../../assets/icon/p.png";
 import mcard from "../../assets/icon/mastercard.png";
@@ -167,7 +167,7 @@ function PayPage() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .TravelList {
   width: 1440px;
   height: 2770px;
- 
+
   .UnderSearch {
     display: flex;
     align-items: center;
@@ -47,20 +47,17 @@
     }
   }
 }
-.TravelListCard{
-    width: 1152px;
-    margin-left: 154px;
-    gap: 24px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  
+.TravelListCard {
+  width: 1152px;
+  margin-left: 154px;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.Slider{
+.Slider {
   width: 100%;
   margin-left: 154px;
   gap: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
 }
-
