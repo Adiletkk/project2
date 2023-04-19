@@ -27,6 +27,20 @@ header {
     }
 }
 
+.left_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .right {
     display: flex;
     flex-direction: row;
@@ -57,8 +71,8 @@ header {
         line-height: 24px;        
         text-align: center;        
         color: #212B36;
-        // border: none;
         cursor: pointer;
+        transition: 0.5s;
     }
     button:hover {
         transition: 0.5s;
@@ -123,4 +137,25 @@ header {
     color: #FFFFFF;
     transition: 0.5s;
     padding: 6px 16px;
+}
+
+.burger {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    header {
+        justify-content: space-between;
+        height: 64px;
+        padding: 40px 0;
+    }
+    .burger {
+        display: flex;
+    }
+    .left_link {
+        display: none;
+    }
+    .display {
+        display: none;
+    }
 }
