@@ -6,14 +6,13 @@ import PayPage from './Pages/PayPage/PayPage';
 import RegistrationPage from './Pages/RegistrationPage/RegistrationPage';
 import SliderPage from './Pages/SliderPage/SliderPage';
 import Documentation from './Pages/DocumentationPage/Documentation';
-import ContactPage from './Pages/ContactPage/ContactPage';
-import AboutPage from './Pages/AboutPage/AboutPage';
-import Details from './Pages/Details/Details';
+
 
 
 function App() {
 
   return (
+
     // <Routes>
     //   <Route path="/" element={
     //     <HomePage />
@@ -36,7 +35,7 @@ function App() {
     //   <Route path='/contact' element={<ContactPage />} />
     //   <Route path="/about" element={<AboutPage/>} />
     // </Routes>
-    <Details/>
+   
   );
 }
 
