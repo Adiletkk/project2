@@ -2,6 +2,7 @@
   display: flex;
   width: 100%;
 }
+
 .all_tags {
   display: flex;
   width: 100%;
@@ -10,7 +11,7 @@
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     .top_text {
       font-size: 22px;
       border-bottom: 1px solid black;
@@ -20,14 +21,13 @@
     .top_input {
       font-size: 10px;
     }
-    .tumbler{ 
-        display: flex;
-        justify-content: space-around;
+    .tumbler {
+      display: flex;
+      justify-content: space-around;
     }
-    .last_input{
-        width: 100%;
+    .last_input {
+      width: 100%;
     }
-    
   }
 
   .right_wrap {
@@ -72,13 +72,13 @@
     }
     .right_avatar {
       display: flex;
-      width: 70%;
+      width: 90%;
       justify-content: space-around;
       align-items: center;
       gap: 6px;
       img {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
       }
     }
     .text_right_img {
@@ -186,3 +186,47 @@ input,
 label {
   margin: 0.4rem 0;
 }
+.last_input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.pay_info {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  align-items: center;
+  p { 
+    font-size: 14px;
+  }
+  .center{ 
+    display: flex;
+    width: 470px;
+    flex-direction: column;
+  }
+}
+.card{ 
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: #FFFFFF;
+  padding: 20px 20px 20px 20px;
+
+border: 1px solid rgba(145, 158, 171, 0.24);
+
+
+box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
+border-radius: 12px;
+}
+// .info_bank{
+//   display: flex;
+//   width: 80%;
+//   font-size: 13px;
+//   justify-content: space-around;
+// }

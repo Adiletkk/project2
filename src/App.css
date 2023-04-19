@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+*{ 
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+ 
+=======
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +13,7 @@
   font-family: "Barlow", sans-serif;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+>>>>>>> 7352afa95bae48f8c2564d10ca891cd781d36dae
 }
 .container {
   padding: 0 144px;
