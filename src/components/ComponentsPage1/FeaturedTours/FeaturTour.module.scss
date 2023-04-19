@@ -1,0 +1,45 @@
+.FeaturTour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 144px 60px;
+  gap: 80px;
+  width: 1440px;
+  height: 980px;
+}
+.Paragraph {
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 24px;
+    color: #212b36;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #637381;
+  }
+}
+.FlexCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 24px;
+  align-items: center;
+
+}
+.btn {
+    width: 150px;
+    height: 48px;
+    background: #fa541c;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }

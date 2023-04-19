@@ -1,0 +1,141 @@
+$font-stack: "Poppins", sans-serif;
+$font-h1: "Barlow", sans-serif;
+$font-Sizeh1: 48px;
+$font-small: 16px;
+a {
+  font-family: $font-stack;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #637381;
+}
+.Footer{
+  overflow-x: hidden;
+  width: 100%;
+  
+}
+.FooterTop {
+  height: 384px;
+  background-image: url(./images/BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .RightText {
+    padding-left: 830px;
+    padding-top: 80px;
+    text-align: start;
+    gap: 24px;
+  }
+  .RightText p {
+    font-family: $font-stack;
+    size: $font-small;
+    width: 350px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 24px;
+  }
+  .RightText h1 {
+    font-family: $font-h1;
+    font-size: $font-Sizeh1;
+    color: #ffffff;
+  }
+  .Email {
+    margin-top: 24px;
+  }
+  input {
+    width: 466px;
+    height: 56px;
+    background: rgba(145, 158, 171, 0.08);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+  }
+  button {
+    position: relative;
+    right: 8%;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    background: #fa541c;
+    border: none;
+    border-radius: 8px;
+    padding-top: 5px;
+  }
+}
+.FooterBottom {
+  display: flex;
+  width: 1440px;
+  height: 393px;
+  margin-top: 82px;
+  margin-left: 145px;
+
+  .LeftText p {
+    font-family: $font-stack;
+    font-size: $font-small;
+    width: 350px;
+    margin-top: 25px;
+    color: #637381;
+  }
+
+  .Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 125px;
+    margin-top: 50px;
+
+    .message {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .map {
+      display: flex;
+      align-items: center;
+      margin-right: 13px;
+      gap: 8px;
+    }
+  }
+  .InputWithBtn {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  input {
+    margin-left: 205px;
+    margin-top: 25px;
+    width: 310px;
+    height: 48px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+    border: none;
+  }
+  button {
+    position: relative;
+    bottom: -25px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    background: #fa541c;
+    border: none;
+    border-radius: 8px;
+    padding-top: 5px;
+  }
+  .ImagesLogo {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin-top: 35px;
+  }
+}
+.under {
+  display: flex;
+  margin-left: 145px;
+  margin-bottom: 32px;
+  .rightunder {
+    display: flex;
+    margin-left: 820px;
+    gap: 21px;
+  }
+}
