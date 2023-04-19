@@ -1,9 +1,20 @@
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+}
+=======
 *{ 
  margin: 0;
  padding: 0;
  box-sizing: border-box;
  font-family: 'Poppins', sans-serif;
 
+>>>>>>> 71e58ab0123f217f46841ec766ec7c47f55225dd
 .container {
   padding: 0 144px;
 }
