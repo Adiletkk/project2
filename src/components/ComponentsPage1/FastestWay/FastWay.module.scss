@@ -1,0 +1,46 @@
+.MainFastWay {
+  width: 1440px;
+  height: 642px;
+  .Paragraph {
+    text-align: center;
+    align-items: center;
+    width: 480px;
+    margin-left: 480px;
+    h1 {
+      font-family: "Barlow", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      margin-top: 24px;
+      color: #637381;
+    }
+  }
+  .FastWayCards {
+    display: flex;
+    margin-top: 80px;
+    gap: 90px;
+    margin-left: -65%;
+    h3 {
+      font-size: 36px;
+    }
+    p {
+      font-family: "Poppins",sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      width: 200px;
+    }
+  }
+  .ForGap{
+   align-items: center;
+    margin-top: 80px;
+    
+}
+}
