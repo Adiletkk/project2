@@ -6,15 +6,21 @@ import PayPage from './Pages/PayPage/PayPage';
 import RegistrationPage from './Pages/RegistrationPage/RegistrationPage';
 import SliderPage from './Pages/SliderPage/SliderPage';
 import Documentation from './Pages/DocumentationPage/Documentation';
+<<<<<<< HEAD
 import Payend from './Pages/PayendPage/Payend';
 import About from './Pages/About/About';
+=======
+>>>>>>> 7352afa95bae48f8c2564d10ca891cd781d36dae
 
 
 function App() {
 
   return (
+<<<<<<< HEAD
 
     <div >
+=======
+>>>>>>> 7352afa95bae48f8c2564d10ca891cd781d36dae
     <Routes> 
     <Route path="/" element={ 
       <HomePage/> 
@@ -40,7 +46,10 @@ function App() {
     <Route path="/about" element={ 
       <About/> }/>  
     </Routes>
+<<<<<<< HEAD
     </div>
+=======
+>>>>>>> 7352afa95bae48f8c2564d10ca891cd781d36dae
   );
 }
 
