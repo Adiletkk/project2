@@ -5,6 +5,7 @@
     padding: 80px 0;
     gap: 24px;
     height: 372px;
+
     h1 {
         font-family: 'Barlow';
         font-style: normal;
@@ -14,12 +15,32 @@
         color: #212B36;
         width: 318px;
     }
+
     p {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 28px;            
-        color:#637381;
+        line-height: 28px;
+        color: #637381;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        align-items: center;
+        padding: 64px 0;
+        h1 {
+            width: 199px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        p {
+            text-align: center;
+            width: 335px;
+            height: 56px;
+        }
     }
 }

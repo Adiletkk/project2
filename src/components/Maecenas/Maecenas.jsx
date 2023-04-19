@@ -1,13 +1,15 @@
 import React from 'react'
 import scss from './Maecenas.module.scss'
 
+
 function Maecenas() {
+
   return (
     <div className='container'>
         <div className={scss.wrapper}>
             <div className={scss.text1}>
-                <div className={scss.line}></div>
-                <h3>Maecenas malesuada. Cras ultricies mi eu turpis hendrerit fringilla. </h3>
+                <div className={scss.line}/>
+                <h3>Maecenas malesuada. Cras ultricies mi eu turpis hendrerit fringilla.</h3>
             </div>
             <div className={scss.text2}>
                 <h4>Fusce convallis metus id felis luctus</h4>

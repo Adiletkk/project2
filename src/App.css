@@ -1,20 +1,33 @@
-<<<<<<< HEAD
 *{ 
  margin: 0;
  padding: 0;
  box-sizing: border-box;
  font-family: 'Poppins', sans-serif;
- 
-=======
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Barlow", sans-serif;
-  font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
->>>>>>> 7352afa95bae48f8c2564d10ca891cd781d36dae
-}
+
 .container {
   padding: 0 144px;
+}
+
+.slick-slider {
+  width: 1152px;
+}
+
+.slick-prev {
+  left: 0px;
+  top: 440px;
+}
+
+.slick-next {
+  left: 64px;
+  top: 440px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
 }
