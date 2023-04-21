@@ -3,6 +3,11 @@
   height: 435px;
   border-radius: 16px;
   box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+
+
   h1 {
     font-family: "Barlow", sans-serif;
     font-style: normal;
@@ -82,3 +87,18 @@
     border: #919EAB 1px dashed;
   }
 }
+.CardFeature:hover{
+  transform: scale(1.1);
+}
+.buttonlike{
+  background: transparent;
+  border: none;
+  border-radius: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.buttonlike:focus {
+  vertical-align: middle;
+ background-color: #a70101;
+}
+

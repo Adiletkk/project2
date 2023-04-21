@@ -15,7 +15,7 @@ const CardFeature = (props) => {
         />
         <div className={styles.Like}>
           <button className={styles.btn}>$299</button>
-          <img src={Like} alt="" />
+         <button className={styles.buttonlike}><img src={Like} alt="" /></button> 
         </div>
       </div>
       <div className={styles.bottom}>
