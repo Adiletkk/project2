@@ -18,7 +18,9 @@
     }
     .right_wrap {
       width: 45%;
-      gap: 30px;
+      gap: 50px;
+      display: flex;
+      flex-direction: column;
       .text {
         display: flex;
         margin-bottom: 50px;
@@ -41,7 +43,6 @@
         justify-content: space-around;
         width: 100%;
         align-items: center;
-        gap: 200px;
       }
       .text_colum {
         display: flex;
@@ -84,7 +85,6 @@
         width: 100%;
         align-items: center;
         border-radius: 15px;
-        margin-top: 100px;
         padding: 20px 20px 20px 20px;
         border: 1px dashed silver;
         gap: 30px;
@@ -148,36 +148,61 @@
         background: orange;
     }
 }
-@media (max-width:960px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .wrapper{ 
-    align-items: center;
     display: flex;
-    justify-content: center;
-    overflow-x: hidden;
-  }
-  .all_tegs{ 
-    align-items: center;
-    display: flex;
-    justify-content: center;
     width: 100%;
-  }
-    .left { 
-      display: inline;
-      width: 50px;
-      img{ 
-        width: 10px;
-        height: 10px;
-      }
-    }
-    .space{ 
+    margin: 0px;
+    .all_tegs{
       display: flex;
-      flex-direction: column-reverse;
-    }
-    .space_a{ 
-      display: flex;
-      flex-direction: column;
-      width: 100%;
+      width: 95%;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
+      padding: 0px;
+      .left{ 
+        display: none;
+      }
+      .right_wrap{ 
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        gap: 2px;
+      }
+      .space_a{ 
+        gap: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        text-align: left;
+      }
+      .left_colum{ 
+        width: 100%;
+      }
+      .space{ 
+        width: 50%;
+        align-items: start;
+        margin-left: -190px;
+        margin-bottom: 30px;
+      }
+      .last_wrap{ 
+        gap: 30px;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+      }
+      .btn_end{ 
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .last_wrap{ 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+      }
     }
+  
+  }
+  
 }
