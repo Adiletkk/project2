@@ -9,6 +9,11 @@ a {
   font-size: 13px;
   color: #637381;
 }
+.Footer{
+  overflow-x: hidden;
+  width: 100%;
+  
+}
 .FooterTop {
   height: 384px;
   background-image: url(./images/BG.svg);
@@ -54,6 +59,7 @@ a {
     background: #fa541c;
     border: none;
     border-radius: 8px;
+    padding-top: 5px;
   }
 }
 .FooterBottom {
@@ -114,6 +120,7 @@ a {
     background: #fa541c;
     border: none;
     border-radius: 8px;
+    padding-top: 5px;
   }
   .ImagesLogo {
     display: flex;

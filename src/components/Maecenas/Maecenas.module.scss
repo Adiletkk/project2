@@ -18,6 +18,7 @@
         height: 3px;        
         background: #FA541C;
         border-radius: 50px;
+        cursor: pointer;
     }
     h3 {
         font-family: 'Barlow';
@@ -26,6 +27,7 @@
         font-size: 36px;
         line-height: 54px;        
         color: #212B36;
+        width: 466px;
     }
 }
 
@@ -58,6 +60,44 @@
             font-size: 16px;
             line-height: 28px;                    
             color: #637381;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        gap: 40px;
+        flex-direction: column;
+        height: 561px;
+        padding: 20px 0;
+    }
+    .text1 {
+        width: 335px;
+        height: 127px;
+        align-items: center;
+        h3 {
+            width: 335px;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+            height: 108px;
+        }
+    }
+    .text2 {
+        width: 335px;
+        height: 354px;
+        h4 {
+            width: 335px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        p {
+            text-align: center;
+            width: 335px;
+        }
+        span {
+            text-align: center;
+            width: 335px;
         }
     }
 }

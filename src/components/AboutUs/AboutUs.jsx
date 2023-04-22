@@ -15,9 +15,9 @@ function AboutUs() {
                 </div>
                 <div className={scss.gallery}>
                     <img src={img} alt="" />
-                    <img src={img2} alt="" />
-                    <img src={img3} alt="" />
-                    <img src={img4} alt="" />
+                    <img className={scss.image2} src={img2} alt="" />
+                    <img className={scss.image3} src={img3} alt="" />
+                    <img className={scss.image4} src={img4} alt="" />
                 </div>
                 <div className={scss.infa}>
                     <div className={scss.item}>
@@ -47,6 +47,40 @@ function AboutUs() {
                             <p>+</p>
                         </div>
                         <p>Verified hotels</p>
+                    </div>
+                </div>
+                <div className={scss.infa2}>
+                    <div className={scss.top}>
+                        <div className={scss.item}>
+                            <div className={scss.items}>
+                                <h2>130</h2>
+                                <p>+</p>
+                            </div>
+                            <p>Air tickets sold</p>
+                        </div>
+                        <div className={scss.item2}>
+                            <div className={scss.items2}>
+                                <h2>196</h2>
+                                <p>+</p>
+                            </div>
+                            <p>Tours booked</p>
+                        </div>
+                    </div>
+                    <div className={scss.bottom}>
+                        <div className={scss.item3}>
+                            <div className={scss.items3}>
+                                <h2>10.68k</h2>
+                                <p>+</p>
+                            </div>
+                            <p>Site visitors</p>
+                        </div>
+                        <div className={scss.item4}>
+                            <div className={scss.items4}>
+                                <h2>877</h2>
+                                <p>+</p>
+                            </div>
+                            <p>Verified hotels</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,61 @@
+.TravelList {
+  width: 1440px;
+  height: 2770px;
+
+  .UnderSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 110px;
+    margin-bottom: 80px;
+    width: 1152px;
+    height: 112px;
+    background: #f9fafb;
+    backdrop-filter: blur(4px);
+    border-radius: 16px;
+    margin-left: 154px;
+    input {
+      height: 30px;
+      width: 150px;
+      border: none;
+      background: transparent;
+      color: black;
+      padding-left: 32px;
+      background-position: 4px;
+      background-repeat: no-repeat;
+    }
+    button {
+      width: 48px;
+      height: 48px;
+      align-items: center;
+      text-align: center;
+      background: #22b8cf;
+      border-radius: 8px;
+      border: 1px solid rgba(34, 184, 207, 0.48);
+      align-items: center;
+      cursor: pointer;
+      padding-top: 5px;
+    }
+    .WhereWe {
+      background-image: url(./buttonimg/Vector1.svg);
+    }
+    .DepDay {
+      background-image: url(./buttonimg/Vector2.svg);
+    }
+    .Guests {
+      background-image: url(./buttonimg/Vector.svg);
+    }
+  }
+}
+.TravelListCard {
+  width: 1152px;
+  margin-left: 154px;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Slider{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}

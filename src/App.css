@@ -1,4 +1,5 @@
 
+
 *{ 
  margin: 0;
  padding: 0;
@@ -7,4 +8,28 @@
 }
 .container {
   padding: 0 144px;
+}
+
+.slick-slider {
+  width: 1152px;
+}
+
+.slick-prev {
+  left: 0px;
+  top: 440px;
+}
+
+.slick-next {
+  left: 64px;
+  top: 440px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
 }

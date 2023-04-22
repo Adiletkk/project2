@@ -1,0 +1,144 @@
+.Thailand {
+  background-image: url(./images/Bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 880px;
+  h2 {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    margin-top: 40px;
+    color: #ffffff;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+.centertext {
+  text-align: center;
+  margin-top: 190px;
+  .resultcard {
+    display: flex;
+    align-items: center;
+    margin-left: 486.5px;
+    margin-top: 42px;
+  }
+  .resultcard p {
+    color: #ffffff;
+  }
+  a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #22b8cf;
+  }
+  .stars,
+  .days,
+  .money {
+    display: flex;
+    gap: 9.5px;
+    align-items: center;
+    margin-left: 41px;
+  }
+  button {
+    margin-top: 40px;
+    width: 119px;
+    height: 48px;
+    background: #fa541c;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+}
+.RightText {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: 1116px;
+  margin-top: -250px;
+  gap: 28px;
+  h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 4px;
+  }
+  .Card {
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    width: 196px;
+    height: 76px;
+  }
+  .Card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(4px);
+  }
+  .Asia {
+    display: flex;
+    margin-top: 4px;
+  }
+  .content {
+    margin-left: 20px;
+  }
+}
+.UnderSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 110px;
+  width: 1152px;
+  height: 112px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  margin-left: 154px;
+  input {
+    height: 30px;
+    width: 150px;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    padding-left: 32px;
+    background-position: 4px;
+    background-repeat: no-repeat;
+  }
+  button {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    text-align: center;
+    background: #22b8cf;
+    border-radius: 8px;
+    border: 1px solid rgba(34, 184, 207, 0.48);
+    align-items: center;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  .WhereWe {
+    background-image: url(./buttonimg/Vector1.svg);
+  }
+  .DepDay {
+    background-image: url(./buttonimg/Vector2.svg);
+  }
+  .Guests{
+    background-image: url(./buttonimg/Vector.svg);
+  }
+}
