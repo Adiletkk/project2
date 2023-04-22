@@ -6,6 +6,7 @@ import avatar from "../../assets/icon/Avatar.png";
 import dude from "../../assets/icon/dude.png";
 import calendar from "../../assets/icon/calendar.png";
 // import Footer from "../../components/ComponentsPage1/Footer/Footer";
+// import Header from "../../components/Header/Header";
 import Header from "../../components/Header/Header";
 import p from "../../assets/icon/p.png";
 import mcard from "../../assets/icon/mastercard.png";
@@ -14,7 +15,7 @@ import visa from "../../assets/icon/visa.png";
 function PayPage() {
   return (
     <div className={css.main}>
-      <Header />
+      {/* <Header /> */}
       <div className={css.wrapper}>
         <div className={css.all_tags}>
           <div className={css.left_wrap}>
@@ -24,7 +25,7 @@ function PayPage() {
             <div className={css.top_input}>
               <h1>Shipping Information</h1>
             </div>
-            <p>Billing Address</p>
+            <p id={css.pa}>Billing Address</p>
             <div className={css.inputs}>
               <input type="text" id={css.big_input} placeholder="Name" />
               <input type="text" placeholder="Last Name" />
@@ -54,7 +55,7 @@ function PayPage() {
               <h1>Payment Methods</h1>
               <div className={css.pay_info}>
                 <div>
-                  <input type="checkbox" id="checkbox" />
+                  <input type="checkbox"  class="custom-checkbox" />
                 </div>
                 <div className={css.pay_cetner}>
                   <div>
@@ -75,7 +76,7 @@ function PayPage() {
             <div className={css.card}>
               <div className={css.pay_info}>
                 <div>
-                  <input type="checkbox" />
+                  <input type="checkbox" class={css.custom_checkbox}/>
                 </div>
                 <div className={css.center}>
                   <div>
@@ -130,23 +131,29 @@ function PayPage() {
               </div>
             </div>
             <div className={css.right_cetner}>
-              <div>
-                <label for="start">
-                  <img src={calendar} alt="" />
-                </label>
-                <input
-                  type="month"
-                  id="start"
-                  name="start"
-                  min="2018-03"
-                  value="2018-05"
-                  max="2023"
-                />
+              <div className={css.calendar_dude}>
+                <div className={css.dude}>
+                  <div>
+                    <img src={dude} alt="dude" />
+                  </div>
+                  <div>
+                    <p id={css.color}>Departure day</p>
+                    <p>19 Apr 2019</p>
+                  </div>
+                </div>
+                <div   className={css.calendar}> 
+                <div>
+                    <img src={calendar} alt="calendar" />
+                  </div>
+                  <div>
+                    <p id={css.color}>Guests</p>
+                    <p>4 guest</p>
+                  </div>
+                </div>
               </div>
-              <div></div>
             </div>
             <div className={css.text_bottom}>
-              <div>
+              <div className={css.top_border}>
                 <h3>Service charge</h3>
                 <h1>$357</h1>
               </div>
@@ -159,7 +166,7 @@ function PayPage() {
                   <h1>Total</h1>
                   <h1>$357</h1>
                 </div>
-                <div>
+                <div className={css.btn}>
                   <button>Complete Booking</button>
                 </div>
               </div>
