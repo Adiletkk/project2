@@ -32,7 +32,7 @@ function OurMission() {
                             <h1>03</h1>
                             <div className={scss.text2}>
                                 <h4>Praesent</h4>
-                                <p>Suspendisse feugiat. Quisque id odio.</p>
+                                <p className={scss.txt}>Suspendisse feugiat. Quisque id odio.</p>
                             </div>
                         </div>
                     </div>

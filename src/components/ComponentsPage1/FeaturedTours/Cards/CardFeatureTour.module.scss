@@ -1,0 +1,104 @@
+.CardFeature {
+  width: 270px;
+  height: 435px;
+  border-radius: 16px;
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+
+
+  h1 {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    height: 56px;
+    color: #212b36;
+    margin-top: 4px;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #637381;
+  }
+  .Like {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+  }
+  .btn {
+    width: 56px;
+    height: 26px;
+    border-radius: 6px;
+    background-color: #212b36;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .TopImg {
+    border: none;
+    border-radius: 16px;
+    height: 121px;
+    z-index: 1;
+  }
+  .IMG {
+    border-radius: 16px;
+    width: 270px;
+    height: 242px;
+    z-index: 0;
+  }
+  .ForGap {
+    display: flex;
+    align-items: center;
+    .days,
+    .Rating {
+      display: flex;
+    }
+    .days{
+        gap: 9px;
+      }
+    h2 {
+      font-family: "Barlow", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      color: #212b36;
+    }
+  }
+  .Like, .bottom , .ForGap{
+    margin-left: 20px;
+    z-index: 2;
+  }
+  .ForGap{
+    gap: 60px;
+  }
+  .bottom{
+    margin-top: 140px;
+    
+  }
+  .Like{
+    margin-top: -238px;
+  }
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #919EAB 1px dashed;
+  }
+}
+.CardFeature:hover{
+  transform: scale(1.1);
+}
+.buttonlike{
+  background: transparent;
+  border: none;
+  border-radius: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.buttonlike:focus {
+  vertical-align: middle;
+ background-color: #a70101;
+}
+

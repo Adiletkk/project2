@@ -269,3 +269,71 @@
         color: #637381;
     }
 }
+
+.infa2 {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        padding: 64px 0;
+        gap: 64px;
+        height: 857px;
+    }
+    .text {
+        width: 335px;
+        height: 158px;
+        h1 {
+            width: 162px;
+            font-size: 40px;
+            line-height: 50px;
+            text-align: center;
+        }
+        p {
+            width: 335px;
+
+        }
+    }
+    .image2, .image3, .image4 {
+        display: none;
+    }
+
+    .gallery {
+        img {
+            width: 335px;
+            height: 251.25px;
+            transition: none;
+        }
+        img:hover {
+            transition: none;
+            flex: none;
+            width: 335px;
+            height: 251.25px;
+        }
+    }
+    .infa {
+        display: none;
+    }
+    .infa2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;        
+        width: 335px;
+        height: 192px;
+        .top {
+            display: flex;
+        }
+        .bottom {
+            display: flex;
+        }
+    }
+    .item, .item2, .item3,.item4 {
+        width: 155px;
+        height: 76px;
+        p {
+            width: 155px;
+        }
+    }
+}
