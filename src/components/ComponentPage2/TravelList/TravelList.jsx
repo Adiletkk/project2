@@ -19,10 +19,10 @@ import TenCard from "./BgImg/ImageRatio10.svg";
 import ElevenCard from "./BgImg/ImageRatio11.svg";
 import TwelveCard from "./BgImg/ImageRatio12.svg";
 import ReactPaginate from "react-paginate";
-import { Pagination } from "@mui/material";
+// import { Pagination } from "@mui/material";
 
 // import ReactDOM from "react-dom";
-// import { Pagination } from "@mui/material";
+import { Pagination } from "@mui/material";
 function TravelList() {
   return (
     <>

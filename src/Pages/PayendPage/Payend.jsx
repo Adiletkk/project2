@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./Payend.module.scss";
 import imgs from "../../assets/Image/about_img3.png";
-import Header from "../../components/Header/Header";
+// import Header from "../../components/Header/Header";
 import star from "../../assets/icon/star.png";
 import avatar from "../../assets/icon/Avatar.png";
 import calendar from "../../assets/icon/calendar.png";
@@ -9,13 +9,13 @@ import dude from "../../assets/icon/dude.png";
 import credit from "../../assets/icon/credit.png";
 import cube from "../../assets/icon/cube.png";
 import recept from "../../assets/icon/recept.png";
-import Footer from "../../components/ComponentsPage1/Footer/Footer";
+// import Footer from "../../components/ComponentsPage1/Footer/Footer";
 import downloade from '../../assets/icon/downloade.png'
 
 function Payend() {
   return (
     <div className={css.wrapper}>
-      <Header />
+      {/* <Header /> */}
       <div className={css.all_tegs}>
         <div className={css.left}>
           <img src={imgs} alt="" />
@@ -35,6 +35,10 @@ function Payend() {
                 <p>(234 revires)</p>
               </div>
             </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
             <div className={css.space}>
               <div>
                 <img src={avatar} alt="" />
@@ -126,7 +130,7 @@ function Payend() {
         </div>
         
       </div>
-            <Footer/>
+            {/* <Footer/> */}
     </div>
   );
 }
