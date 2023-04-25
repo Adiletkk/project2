@@ -26,6 +26,10 @@ import Left from "./buttonimg/iconbase.svg";
 import Right from "./BgImg/OVERLAYCOLOR9.svg";
 import { Pagination } from "@mui/material";
 import zIndex from "@mui/material/styles/zIndex";
+// import { Pagination } from "@mui/material";
+
+// import ReactDOM from "react-dom";
+import { Pagination } from "@mui/material";
 function TravelList() {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;

@@ -72,3 +72,45 @@ h3 {
 .imag1 {
     padding: 197px 20px 0;
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+        align-items: center;
+        padding: 80px 20px;
+        gap: 64px;
+        height: 622px;
+    }
+    .right {
+        display: none;
+    }
+    h3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        width: 335px;
+        height: 358px;
+    }
+    .left {
+        width: 335px;
+        h4 {
+            width: 335px;
+            font-size: 32px;
+            line-height: 42px;
+            text-align: center;
+        }
+    }
+    .sliderText {
+        width: 335px;
+        align-items: center;
+        .txt1 {
+            width: 335px;
+            text-align: center;
+        }
+        .txt2 {
+            width: 105px;
+        }
+        .txt2::before {
+            align-items: flex-start;
+        }
+    }
+}

@@ -81,7 +81,6 @@ function AboutPost() {
                             <p>Suraj Gregory</p>
                         </div>
                     </div>
-                   
                 </div>
             </div>
         </div>

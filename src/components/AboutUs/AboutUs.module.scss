@@ -298,19 +298,6 @@
         display: none;
     }
 
-    .gallery {
-        img {
-            width: 335px;
-            height: 251.25px;
-            transition: none;
-        }
-        img:hover {
-            transition: none;
-            flex: none;
-            width: 335px;
-            height: 251.25px;
-        }
-    }
     .infa {
         display: none;
     }
@@ -334,6 +321,18 @@
         height: 76px;
         p {
             width: 155px;
+        }
+    }
+    .gallery {
+        width: 335px;
+        img {
+            width: 335px;
+            height: 251.25px;
+        }
+        .img:hover {
+            transition: none;
+            width: 335px;
+            height: 251.25px;
         }
     }
 }

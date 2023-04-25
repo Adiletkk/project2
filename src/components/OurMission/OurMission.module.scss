@@ -238,6 +238,7 @@
         }
         .right {
             flex-direction: column;
+            width: 335px;
         }
         .one {
             width: 335px;
@@ -292,5 +293,11 @@
                 width: 271px;
             }
         }
+    }
+    .card2:hover {
+        box-shadow: 0px 0px 83px 30px rgba(145, 158, 171, 0.30)
+    }
+    .card3:hover {
+        box-shadow: 0px 0px 119px 36px rgba(145, 158, 171, 0.40);
     }
 }
