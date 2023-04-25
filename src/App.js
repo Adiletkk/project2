@@ -5,7 +5,7 @@ import HeaderPage from './Pages/HeaderPage/HeaderPage';
 import PayPage from './Pages/PayPage/PayPage';
 import RegistrationPage from './Pages/RegistrationPage/RegistrationPage';
 import SliderPage from './Pages/SliderPage/SliderPage';
-import Documentation from './Pages/DocumentationPage/Documentation';
+// import Documentation from './Pages/DocumentationPage/Documentation';
 import Payend from './Pages/PayendPage/Payend';
 import About from './Pages/About/About';
 import "./App.css";
@@ -46,8 +46,8 @@ function App() {
       <About/> }/>  
     </Routes>
 
-<Footer/>
-<TravelBlog/>
+{/* <Footer/>
+<TravelBlog/> */}
 </div>
   );
 }
