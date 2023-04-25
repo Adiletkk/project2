@@ -1,0 +1,17 @@
+.wrapper {
+    width: 90px;
+    height: 18px;
+}
+
+.starListItem {
+    display: inline;
+    list-style-type: none;
+    gap: 3px;
+}
+
+.starList {
+    list-style-type: none;
+    display: flex;
+    gap: 3.03px;
+}
+

@@ -48,11 +48,6 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 28px;
-            /* or 175% */
-
-
-            /* 11 Text Color/Light/02 Text Secondary */
-
             color: #637381;
         }
     }
@@ -88,5 +83,91 @@
     img:hover {
         -webkit-transform: scale(1.3);
         transform: scale(1.5);
+    }
+}
+.bottom_mini {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        align-items: center;
+        padding: 64px 0;
+        gap: 64px;
+        height: 838px;
+    }
+    .top {
+        flex-direction: column;
+        align-items: center;
+        width: 335px;
+        height: 254px;
+        h2 {
+            width: 155px;
+            font-size: 32px;
+            line-height: 42px;
+            text-align: center;
+        }
+        .top_right {
+            width: 335px;
+            height: 188px;
+            h4 {
+                width: 335px;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+    .bottom {
+        display: none;
+    }
+    .bottom_mini {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 335px;
+        height: 392px;
+        opacity: 0.8;
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;            
+            width: 155.5px;
+            height: 392px;
+            img {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+            }
+            img:hover {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.5);
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;            
+            width: 155.5px;
+            height: 392px;
+            img {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+            }
+            img:hover {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.5);
+            }
+        }
     }
 }

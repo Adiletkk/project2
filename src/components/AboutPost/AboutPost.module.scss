@@ -138,3 +138,52 @@
         color: #212B36;        
     }
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+        padding: 64px 0;
+        gap: 64;
+        height: 726px;
+    }
+    .top {
+        width: 335px;
+        justify-content: center;
+        h2 {
+            width: 179px;
+            font-size: 32px;
+            line-height: 42px;
+        }
+        button {
+            display: none;
+        }
+    }
+    .bottom {
+        flex-direction: column;
+        width: 335px;
+        height: 392px;
+    }
+    .blogcard1 {
+        flex-direction: row;
+        gap: 16px;
+        width: 335px;
+        height: 80px;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .text {
+        width: 239px;
+        height: 80px;
+        flex-direction: column-reverse;
+        h6 {
+            width: 239px;
+            font-size: 17px;
+            line-height: 26px;
+        }
+    }
+
+    .profile{
+        display: none;
+    }
+}

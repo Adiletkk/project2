@@ -6,6 +6,7 @@ import facebook from '../../assets/icon/facebook_button.png'
 import insta from '../../assets/icon/insta_button.png'
 import inn from '../../assets/icon/in_button.png'
 import twitter from '../../assets/icon/twit_button.png'
+import Comment from '../Comment/Comment'
 
 function Reviews() {
   return (
@@ -33,6 +34,25 @@ function Reviews() {
                 <div className={scss.contact}>
                     <p>Member since Mar 15, 2021</p>
                     <button>Contact Tour Guide</button>
+                </div>
+            </div>
+            <div className={scss.comment}>
+                <div className={scss.action}>
+                    <h4>123 Reviews</h4>
+                    <div className={scss.btn}>
+                        <select name="" id="">
+                            <option value="Most recent">Most recent</option>
+                            <option value="Most first ">Most first</option>
+                        </select>
+                        <button>Write a Review</button>
+                    </div>
+                </div>
+                <div className={scss.comments}>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
                 </div>
             </div>
         </div>
