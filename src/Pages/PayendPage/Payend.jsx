@@ -11,6 +11,7 @@ import cube from "../../assets/icon/cube.png";
 import recept from "../../assets/icon/recept.png";
 // import Footer from "../../components/ComponentsPage1/Footer/Footer";
 import downloade from '../../assets/icon/downloade.png'
+import { Link } from "react-router-dom";
 
 function Payend() {
   return (
@@ -120,10 +121,12 @@ function Payend() {
                     <button className={css.silver}> Back Home </button>
                 </div>
                 <div>
+                  <Link to='/travel'>
                     <button className={css.orange}>
                         <img src={downloade} alt="" />
                         <h1>Download Invoice</h1>
                     </button>
+                    </Link>
                 </div>
             </div>
           </div>

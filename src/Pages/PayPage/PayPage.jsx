@@ -10,6 +10,7 @@ import Header from "../../components/Header/Header";
 import p from "../../assets/icon/p.png";
 import mcard from "../../assets/icon/mastercard.png";
 import visa from "../../assets/icon/visa.png";
+import { Link } from "react-router-dom";
 
 function PayPage() {
   return (
@@ -166,7 +167,8 @@ function PayPage() {
                   <h1>$357</h1>
                 </div>
                 <div className={css.btn}>
-                  <button>Complete Booking</button>
+                  
+                  <Link to='/payend'> <button>Complete Booking</button></Link>
                 </div>
               </div>
             </div>

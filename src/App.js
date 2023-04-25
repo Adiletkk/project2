@@ -44,10 +44,13 @@ function App() {
     }/> 
     <Route path="/about" element={ 
       <About/> }/>  
-    </Routes>
-
+    <Route path='/travel' element={
+      <TravelList/>
+    }/>
 {/* <Footer/>
 <TravelBlog/> */}
+    </Routes>
+
 </div>
   );
 }

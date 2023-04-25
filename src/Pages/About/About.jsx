@@ -131,6 +131,7 @@ function About() {
             <div>
               <p>Share:</p>
             </div>
+            <div className={css.wrap}>
             <div className={css.facebook_small}>
               <div>
                 <img src={facebook_small} alt="" />
@@ -151,7 +152,7 @@ function About() {
               <div>
                 <img src={li_small} alt="" />
               </div>
-              <div>
+              <div >
                 <p>LinkedIn</p>
               </div>
             </div>
@@ -163,6 +164,7 @@ function About() {
                 <p>Twitter</p>
               </div>
             </div>
+          </div>
           </div>
           <div className={css.footer}>
             <div className={css.left_endl}>
@@ -178,12 +180,12 @@ function About() {
                 nisi, condimentum viverra felis nunc et lorem..
               </p>
             </div>
+            </div>
             <div className={css.right_endl}>
               <img src={facebook} alt="" />
               <img src={instagram} alt="" />
               <img src={ins} alt="" />
               <img src={twitter} alt="" />
-            </div>
             </div>
           </div>
         </div>
@@ -300,7 +302,7 @@ function About() {
               </div>
               <div className={css.between}>
                 <p>
-                  <p id={css.color}>HR</p> & Recruting
+                  <p id={css.color}>HR & Recruting</p>
                 </p>
                 <p>
                   <p id={css.color}>Design</p>
