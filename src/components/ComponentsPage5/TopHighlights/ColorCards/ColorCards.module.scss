@@ -1,0 +1,28 @@
+.ColorCards {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.righttext {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  h1 {
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212B36;
+  }
+  .ellipse {
+    background: #919eab;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+  }
+}
+.Data {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }

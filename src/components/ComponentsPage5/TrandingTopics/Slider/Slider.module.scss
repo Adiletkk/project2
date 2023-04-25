@@ -1,0 +1,83 @@
+.slider{
+    display: none;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+.slider{
+    display: block;
+    text-align: center;
+    height: 600px;
+    width: 380px;
+    .CardOne2 {
+        padding-top: 178px;
+        background-image: url(../Images/ImageRatioOverlay.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 284px;
+        width: 335px;
+      }
+      .CardTwo3 {
+        padding-top: 178px;
+        background-image: url(../Images/ImageRatioOverlay2.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 284px;
+        width: 335px;
+      }
+      .CardThree4 {
+        padding-top: 178px;
+        background-image: url(../Images/ImageRatioOverlay3.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 284px;
+        width: 335px;
+      }
+      .CardFour5 {
+        padding-top: 178px;
+        background-image: url(../Images/ImageRatioOverlay4.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 284px;
+        width: 335px;
+      }
+     
+      h1 {
+        font-family: "Barlow", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: #212b36;
+        line-height: 54px;
+      }
+      p {
+        font-family: "Barlow", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+      }
+      a {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 4px;
+      }
+    
+      .rightimg{
+        position: relative;
+        left: 213px;
+        top: 20px;
+        width: 20px;
+      }
+      .leftimg{
+        position: relative;
+        left: -32px;
+        top: 327px;
+
+      }
+ 
+}
+
+    }
+

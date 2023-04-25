@@ -10,7 +10,7 @@ function FastWay() {
   return (
     <section className={styles.MainFastWay}>
       
-        <div className={styles.Paragraph}>
+        <div className={styles.Piragraph}>
           <h1>Fastest Way to Book over 450 Great Tours</h1>
           <p>
             Since wire-frame renderings are relatively simple and fast to

@@ -19,7 +19,7 @@
     color: #212b36;
   }
   p {
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -42,4 +42,43 @@
     border: none;
     color: #ffffff;
     cursor: pointer;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .FeaturTour {
+      display: flex;
+      flex-direction: column;
+      padding-left: 130px;
+      align-items: center;
+      padding: 64px 20px;
+      gap: 64px;
+      width: 375px;
+      height: 3240px;
+    }
+
+    .FlexCard {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 94px;
+      justify-content: center;
+      margin-top: 80px;
+      gap: 80px;
+      align-items: center;
+     
+    
+    }
+    .Paragraph{
+      margin-left: 90px;
+      width: 323px;
+    }
+    .btn {
+        width: 150px;
+        height: 48px;
+        background: #fa541c;
+        border-radius: 8px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 80px;
+        margin-left: 90px;
+      }
   }

@@ -3,6 +3,9 @@
   width: 1440px;
   height: 724px;
   gap: 24px;
+  .AdaptiveCard{
+    display: none;
+  }
   h1 {
     font-family: "Barlow", sans-serif;
     color: #ffffff;
@@ -17,7 +20,7 @@
   }
   p {
     color: #ffffff;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
   }
@@ -30,7 +33,7 @@
   }
   .Peaple {
     margin-top: 20px;
-    p{
+    p {
       font-size: 14px;
     }
   }
@@ -49,50 +52,120 @@
   padding-top: 300px;
   padding-left: 40px;
   padding-right: 45px;
-  text-align: start
-  ;
-  p{
+  text-align: start;
+  p {
     font-size: 14px;
   }
 }
-.Thinktop{
+.Thinktop {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 8px;
+  width: 567px;
+  height: 270px;
+  background-image: url(./images/ImageRatioOverlay2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 138px;
+  padding-left: 24px;
+  h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.LittleCards {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+  p {
+    font-size: 14px;
+  }
+}
+.hasbick {
+  background-image: url(./images/ImageRatioOverlay3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 110px;
+  padding-left: 24px;
+  width: 270px;
+  height: 270px;
+  gap: 24px;
+  h1 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .TravelBlog {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin-top: 80px;
-    gap: 8px;
-    width: 567px;
-    height: 270px;
-    background-image: url(./images/ImageRatioOverlay2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 138px;
-    padding-left: 24px;
-    h1{
-        font-size: 18px;
-        font-weight: 600;
-    }
-}
-.LittleCards{
-    display: flex;
-    align-items: center ;
+    align-items: center;
+    width: 375px;
+    height: 1500px;
     gap: 24px;
-    margin-top: 24px;
-    p{
-      font-size: 14px;
+    .AdaptiveCard{
+      display: flex;
+      flex-direction: column ;
     }
+  }
+  .LittleCards {
+    flex-direction: column;
+  }
+  .Right, .BigCard {
+    display: none;
+    h1 {
+      font-size: 18px;
+    }
+  }
 
-}
-.hasbick{
+  .hasbick1{
+    background-image: url(./ForAdaptivesCard.img/ImageRatioOverlay1.svg);
+  }
+  .hasbick2{
+    background-image: url(./ForAdaptivesCard.img/ImageRatioOverlay2.svg);
+  }
+  .hasbick3{
+    background-image: url(./images/ImageRatio6Overlay.svg);
+  }
+  .hasbick1,
+  .hasbick2,
+  .hasbick3,
+  .hasbick { 
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 110px;
+      padding-left: 24px;
+      width: 270px;
+      height: 270px;
+      gap: 24px;
+      margin-top: 32px;
+      h1 {
+        font-size: 18px;
+      }
+    }
+    .Peaple,
+    .Days {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding-top: 8px;
+    }
+  
+  .Thinktop {
+    width: 270px;
+    height: 270px;
     background-image: url(./images/ImageRatioOverlay3.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 110px;
-    padding-left: 24px;
-    width: 270px;
-    height: 270px;
+    padding-top: 76px;
+    padding-left: 0px;
     gap: 24px;
-    h1{
+    h1 {
       font-size: 18px;
     }
+  }
+  }
 
-}
+

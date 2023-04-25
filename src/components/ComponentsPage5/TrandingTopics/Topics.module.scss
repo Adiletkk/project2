@@ -1,0 +1,77 @@
+.Topics {
+  height: 464px;
+  background: #f9fafb;
+  padding-left: 144px;
+
+  h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212b36;
+    line-height: 54px;
+  }
+  p {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+}
+.Cards {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+  margin-top: 48px;
+  .CardOne {
+    padding-top: 118px;
+    background-image: url(./Images/ImageRatioOverlay.svg);
+    height: 202px;
+    width: 270px;
+  }
+  .CardTwo {
+    padding-top: 118px;
+    background-image: url(./Images/ImageRatioOverlay2.svg);
+    height: 202px;
+    width: 270px;
+  }
+  .CardThree {
+    padding-top: 118px;
+    background-image: url(./Images/ImageRatioOverlay3.svg);
+    height: 202px;
+    width: 270px;
+  }
+  .CardFour {
+    padding-top: 118px;
+    background-image: url(./Images/ImageRatioOverlay4.svg);
+    height: 202px;
+    width: 270px;
+  }
+}
+.sliderButton{
+  position:relative;
+  bottom: 290px;
+  left: 435px;
+  background-color: transparent;
+  border: none;
+  gap: 38px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+  .Topics {
+    height: 736px;
+    width: 480px;
+    background: #f9fafb;
+    padding-left: 0px;
+    .alice{
+      display: none;
+    }
+  }
+}
+

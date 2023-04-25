@@ -39,7 +39,7 @@ function LatestPost() {
       <section className={styles.LatestPost}>
     
           <div className={styles.left}>
-          <AliceCarousel
+          <AliceCarousel className={styles.Alicee}
           renderNextButton={() => nextButton}
           renderPrevButton={() => prevButton}
           autoPlay={false}
@@ -82,7 +82,7 @@ function LatestPost() {
           </div>
       
        
-
+         
         <div className={styles.right}>
           <h2>Latest Posts </h2>
           <div className={styles.text}>

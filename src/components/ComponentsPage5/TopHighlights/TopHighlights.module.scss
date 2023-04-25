@@ -1,0 +1,204 @@
+.TopHighlights {
+  display: flex;
+  gap: 64px;
+  width: 1440px;
+  height: 2250px;
+  padding-top: 80px;
+  overflow-x: hidden;
+  
+}
+.flex{
+  display: flex;
+  gap: 24px;
+}
+.Slider {
+  width: 766px;
+  margin-left: 144px;
+  height: 2026px;
+}
+.Left {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 746px;
+  gap: 32px;
+  margin-top: 48px;
+  height: 500px;
+}
+.hoverPagin:hover {
+  color: #fa541c;
+  background: rgba(250, 84, 28, 0.08);
+  border-radius: 50px;
+}
+.nextArrow {
+  position: relative;
+  left: 72%;
+  top: 35px;
+  cursor: pointer;
+  img {
+    width: 5px;
+    height: 8px;
+    size: cover;
+  }
+}
+.PrevArrow {
+  bottom: 1%;
+  cursor: pointer;
+  width: 2%;
+    height: 2%;
+    display: flex;
+    position: absolute;
+    top: 2021px;
+    left: 47%;
+    z-index: 100;
+  img {
+    width: 24px;
+    height: 16px;
+    size: cover;
+  }
+}
+.Right {
+  width: 342px;
+  margin-top: 48px;
+  gap: 40px;
+}
+.Search {
+  width: 342px;
+  height: 54px;
+  background: rgba(145, 158, 171, 0.08);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 0px 14px 14px;
+  gap: 8px;
+  input {
+    background: transparent;
+    border: none;
+    background-image: url(./TopCards/img/Vector.svg);
+    background-repeat: no-repeat;
+    padding-left: 35px;
+  }
+}
+.PopulareTags button {
+  align-items: center;
+  padding: 4px 12px;
+  height: 34px;
+  background: rgba(145, 158, 171, 0.16);
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-left: 8px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #637381;
+}
+.Advertisement {
+  background-image: url(./ColorCards/images/ImageRatioOverlay.svg);
+  background-repeat: no-repeat;
+  width: 342px;
+  height: 342px;
+  text-align: center;
+  padding-top: 146px;
+  h2 {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #22b8cf;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    width: 266px;
+    margin-left: 40px;
+  }
+  button {
+    width: 87px;
+    height: 36px;
+    background: #fa541c;
+    border-radius: 8px;
+    color: #ffffff;
+    border: none;
+  }
+}
+.RecentPosts,
+.PopulareTags,
+.Advertisement {
+  margin-top: 40px;
+}
+ul {
+  gap: 8px;
+}
+li {
+  margin-left: 20px;
+  padding-top: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212b36;
+}
+.RecentPosts {
+  margin-top: 28px;
+}
+h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #212b36;
+}
+.Search {
+  margin-bottom: 40px;
+}
+h4 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-left: 144px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .TopHighlights {
+    flex-direction: column;
+    width: 375px;
+    height: 5262px;
+    gap: 25px;
+  }
+  .flex{
+    flex-direction: column;
+  }
+  h4{
+    font-size: 24px;
+    margin-left: 50px;
+  }
+  .Slider{
+    margin-left: 0px;
+    height: 5062px;
+  }
+  .Right {
+    width: 342px;
+    margin-top: 0px;
+    padding-left: 10px;
+    gap: 40px;
+  }
+  .nextArrow {
+display: none;
+  }
+  .PrevArrow {
+display: none;
+  }
+  .Advertisement{
+    background-image: url(./BigImages/ImageRatioOverlay.svg);
+    margin-left: 20px;
+  }
+
+}

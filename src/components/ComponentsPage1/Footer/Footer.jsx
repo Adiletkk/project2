@@ -58,7 +58,8 @@ function Footer() {
         </div>
       </div>
       <div className={styles.under}>
-        <a>© 2021. All rights reserved</a>
+        <div>    <a>© 2021. All rights reserved</a></div>
+    
         <div className={styles.rightunder}>
           <a>Help Center</a>
           <a>Terms of Service</a>

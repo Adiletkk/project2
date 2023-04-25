@@ -1,7 +1,8 @@
 .TravelList {
   width: 1440px;
-  height: 2770px;
-
+  height: 2092px;
+  overflow-x: hidden;
+  padding-left: 20px;
   .UnderSearch {
     display: flex;
     align-items: center;
@@ -50,12 +51,115 @@
 .TravelListCard {
   width: 1152px;
   margin-left: 154px;
-  gap: 24px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  .flex {
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+  }
 }
-.Slider{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  
+.Dots {
+  width: 100%;
+}
+.Slider {
+  width: 1309px;
+  margin-left: 0px;
+  height: 1581px;
+}
+.hoverPagin:hover {
+  color: #fa541c;
+  background: rgba(250, 84, 28, 0.08);
+  border-radius: 50px;
+}
+.nextArrow {
+  position: relative;
+  left: 65%;
+  top: 34px;
+  cursor: pointer;
+  img {
+    width: 5px;
+    height: 8px;
+    size: cover;
+  }
+}
+.PrevArrow {
+  bottom: 1%;
+  cursor: pointer;
+  width: 2%;
+    height: 2%;
+    display: flex;
+    position: absolute;
+    top: 1575px;
+    left: 47%;
+    z-index: 100;
+  img {
+    width: 24px;
+    height: 16px;
+    size: cover;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .TravelList {
+    width: 375px;
+    height: 8865px;
+    display: flex;
+    flex-direction: column;
+    .Slider {
+      margin-left: 0px;
+      height: 8094px;
+      padding-right: 944px;
+      .slick-dots {
+        width: 18%;
+        margin-left: -474px;
+      }
+    }
+    .flex {
+      gap: 62px;
+      flex-direction: column;
+    }
+
+    .UnderSearch {
+      margin-bottom: 0px;
+      width: 350px;
+      height: 316px;
+      background: #f9fafb;
+      backdrop-filter: blur(4px);
+      border-radius: 16px;
+      flex-direction: column;
+      margin-left: 0px;
+
+      .layer {
+        display: none;
+      }
+      button {
+        width: 271px;
+        height: 48px;
+      }
+    }
+    .TravelListCard {
+      width: 1152px;
+      margin-left: 5px;
+      gap: 34px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .nextArrow{
+      top: 95px;
+      left: 74%;
+    }
+    .PrevArrow {
+      top: 8090px;
+      width: 2%;
+      height: 2%;
+      left: 63px;
+      cursor: pointer;
+      img {
+        width: 24px;
+        height: 16px;
+        size: cover;
+      }
+    }
+  }
 }

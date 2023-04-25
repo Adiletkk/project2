@@ -1,15 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
 *{ 
  margin: 0;
  padding: 0;
  box-sizing: border-box;
  font-family: 'Poppins', sans-serif;
 }
+
 .container {
   padding: 0 144px;
 }
 
 .slick-slider {
-  width: 1152px;
+  margin-left: 637px;
 }
 
 .slick-prev {
@@ -21,7 +28,9 @@
   left: 64px;
   top: 440px;
 }
-
+.slick-dots {
+  width: 100%;
+}
 button {
   cursor: pointer;
 }
@@ -34,6 +43,15 @@ button {
   .container {
     padding: 0 20px;
   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .slick-dots {
+    display: flex;
+    width: 16%;
+  }
+
+
+}
   .slick-slider {
     width: 335px;
   }
