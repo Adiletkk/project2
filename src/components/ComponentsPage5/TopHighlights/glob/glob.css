@@ -1,0 +1,14 @@
+.slick-slider {
+
+    margin-bottom: 80px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .slick-slider {
+        margin-left: 10px;
+      }
+      .slick-dots{
+        width: 50%;
+      }
+    
+   
+  }

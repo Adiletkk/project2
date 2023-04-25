@@ -3,6 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 880px;
+
   h2 {
     font-family: "Barlow", sans-serif;
     font-style: normal;
@@ -19,6 +20,11 @@
     font-size: 14px;
     line-height: 26px;
   }
+ 
+}
+.next{
+  display: flex;
+  justify-content: center;
 }
 
 .centertext {
@@ -141,4 +147,77 @@
   .Guests{
     background-image: url(./buttonimg/Vector.svg);
   }
+}
+.Alice{
+  display: none;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.Thailand{
+  width: 480px;
+  height: 765px;
+  margin-bottom: 1px;
+
+  .DisableDots {
+    display: flex;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    margin-top: 120px;
+    align-items: center;
+  }
+  .resultcard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0px;
+    align-items: center;
+    height: 100px;
+ 
+  }
+  .centertext{
+   
+    margin-right: 0px;
+  }
+ .RightText{
+  display:none ;
+ }
+  .stars,
+  .days,
+  .money {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  button{
+    margin-top: 40px;
+  }
+  .UnderSearch {
+    margin-bottom: 200px;
+    width: 480px;
+    height: 316px;    
+    background: #F9FAFB;
+    backdrop-filter: blur(4px);
+    border-radius: 16px;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 146px;
+    .layer{
+      display: none ;
+    }
+    button {
+      width: 271px;
+      height: 48px;
+    }
+  .AliceCarousel{
+    display: block;
+  }
+
+  }
+}
+
+
 }

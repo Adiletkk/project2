@@ -5,9 +5,6 @@
   box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
   transition: all 0.3s ease;
   cursor: pointer;
-  
-
-
   h1 {
     font-family: "Barlow", sans-serif;
     font-style: normal;
@@ -56,9 +53,9 @@
     .Rating {
       display: flex;
     }
-    .days{
-        gap: 9px;
-      }
+    .days {
+      gap: 9px;
+    }
     h2 {
       font-family: "Barlow", sans-serif;
       font-style: normal;
@@ -67,30 +64,31 @@
       color: #212b36;
     }
   }
-  .Like, .bottom , .ForGap{
+  .Like,
+  .bottom,
+  .ForGap {
     margin-left: 20px;
     z-index: 2;
   }
-  .ForGap{
+  .ForGap {
     gap: 60px;
   }
-  .bottom{
+  .bottom {
     margin-top: 140px;
-    
   }
-  .Like{
+  .Like {
     margin-top: -238px;
   }
-  hr{
+  hr {
     margin-top: 20px;
     margin-bottom: 20px;
-    border: #919EAB 1px dashed;
+    border: #919eab 1px dashed;
   }
 }
-.CardFeature:hover{
+.CardFeature:hover {
   transform: scale(1.1);
 }
-.buttonlike{
+.buttonlike {
   background: transparent;
   border: none;
   border-radius: 35px;
@@ -99,6 +97,37 @@
 }
 .buttonlike:focus {
   vertical-align: middle;
- background-color: #a70101;
+  background-color: #a70101;
 }
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .CardFeature {
+    width: 350px;
+    height: 600px;
+    padding-left:0px;
+    transition: all 0.1s ease;
+    .btn {
+      width: 56px;
+      height: 26px;      
+    }
+    .IMG {
+      border-radius: 70px;
+      width: 350px;
+      height: 350px;
+    }
+    hr {
+      width: 350px;
+    }
+    .bottom {
+      margin-top: 280px;
+    }
+    .Like {
+      display: flex;
+      gap: 210px;
+      align-items: center;
+      margin-top: -320px;
+    }
+    .ForGap {
+      gap: 144px;
+    }
+  }
+}

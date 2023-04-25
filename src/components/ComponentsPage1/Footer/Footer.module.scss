@@ -9,10 +9,9 @@ a {
   font-size: 13px;
   color: #637381;
 }
-.Footer{
-  overflow-x: hidden;
+.Footer {
   width: 100%;
-  
+  overflow-x:hidden;
 }
 .FooterTop {
   height: 384px;
@@ -138,4 +137,80 @@ a {
     margin-left: 820px;
     gap: 21px;
   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Footer{
+    height: 1090px;
+    overflow-x: visible;
+   
+  }
+  .FooterTop {
+    height: 362px;
+    width: 454px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(22, 28, 36, 0.88);
+    button{
+      right: 13%;
+      top: 3px;
+    }
+    .RightText {
+      padding-left: 0px;
+      padding-top: 80px;
+      text-align: center;
+      gap: 24px;
+    }
+    input{
+      width: 335px;
+      height: 56px;
+      background: rgba(22, 28, 36, 0.88);
+      margin-left: 20px;
+    }
+    p{
+      padding-left: 50px;
+    }
+  }
+  .FooterBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 521px;
+    width: 554px;;
+    margin-left: -50px;
+    input{
+      margin-left: 20px;
+    }
+    .Info{
+      margin-left: 0px;
+     }
+     .ImagesLogo{
+      justify-content: center;
+     }
+     input {
+      width: 335px;
+      height: 56px;
+    }
+    button{
+      bottom: -29px;
+
+    }
+    .InputWithBtn{
+      gap: 0px;
+    }
+  }
+
+.under{
+  align-items: center;
+  margin-left: -21px;
+  flex-direction: column;
+  justify-content: center;
+
+  .rightunder{
+    width: 273px;
+    margin-left: 79px;
+  }
+}
+
+
 }

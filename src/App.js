@@ -4,7 +4,7 @@ import Explore from "./components/ComponentsPage1/ExploreDifferent/Explore";
 import FastWay from "./components/ComponentsPage1/FastestWay/FastWay";
 import CardFeature from "./components/ComponentsPage1/FeaturedTours/Cards/CardFeatureTour";
 import FeaturTour from "./components/ComponentsPage1/FeaturedTours/FeaturTour";
-import Footer from "./components/ComponentsPage1/Footer/Footer"
+import Footer from "./components/ComponentsPage1/Footer/Footer";
 import LatestPost from "./components/ComponentsPage1/LatestPosts/LatePost";
 import OurFavorite from "./components/ComponentsPage1/OurFavoriteDestinations/OurFavorite";
 import Thailand from "./components/ComponentsPage1/ThailandTour/Thailand";
@@ -13,14 +13,29 @@ import TourCity from "./components/ComponentsPage1/ToursByCity/TourCity";
 import "react-alice-carousel/lib/alice-carousel.css";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
 import TravelBlog from "./components/ComponentsPage5/TravelBlog/TravelBlog";
+import Topics from "./components/ComponentsPage5/TrandingTopics/Topics";
+import TopHighlights from "./components/ComponentsPage5/TopHighlights/TopHighlights";
+import BottomFooter from "./components/BottomFooter/BottomFooter";
+import Top from "./components/ComponentsPage5/TopHighlights/TopCards/Top";
+import About from "./Pages/About/About";
+import SlideAdaptive from "./components/ComponentsPage5/TrandingTopics/Slider/Slider";
 
 function App() {
   return (
     <div>
+<Thailand/>
+<Explore/>
+<FastWay/>
+<OurFavorite/>
+<FeaturTour/>
+<TourCity/>
+<LatestPost/>
 <Footer/>
+<TravelList/>
 <TravelBlog/>
+<Topics/>
+<TopHighlights/>
 
-      
     </div>
     // <Routes>
     //   {/* <Route path="/" element={<HomePage />} />

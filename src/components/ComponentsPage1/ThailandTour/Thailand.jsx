@@ -12,11 +12,31 @@ import shop from "./buttonimg/Vector2.svg"
 import guest from "./buttonimg/Vector.svg"
 import layer from "./buttonimg/layer.svg"
 import OVERLAY from "./buttonimg/OVERLAY COLOR.svg"
+import AliceCarousel from "react-alice-carousel";
+import classNames from "classnames";
+import Slider from "react-slick";
 
 function Thailand() {
+  const DisableDots = ( 
+    <button  className={classNames(styles.DisableDots, styles.Dots)}> 
+   
+    </button> 
+  );
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  }
+
+
   return (
     <section className={styles.Thailand}>
       <Header/>
+      {/* <div className={styles.next}> */}
+    
       <div className={styles.centertext}>
         <a>NEW TOUR</a>
         <h2>Thailand Tour</h2>
@@ -29,9 +49,10 @@ function Thailand() {
             <img src={star} alt="" />
             <p>4.8 reviews</p>
           </div>
-          <div className={styles.money}></div>
+          <div className={styles.money}>
           <img src={clock} alt="" />
           <p>Starting at $69</p>
+          </div>
         </div>
         <button>Book Now</button>
       </div>
@@ -67,16 +88,17 @@ function Thailand() {
           </div>
         </div>
       </div>
-      <div className={styles.UnderSearch} >
-        <input className={styles.WhereWe} type="text" placeholder="Where we go?" />
-        <img src={layer} alt="" />
+      
+     
+       <div className={styles.UnderSearch} >
+         <input className={styles.WhereWe} type="text" placeholder="Where we go?" />
+        <img src={layer} className={styles.layer} alt="" />
         <input className={styles.DepDay} type="text" placeholder="Departure day"/>
-        <img src={layer} alt="" />
+         <img src={layer} className={styles.layer} alt="" />
         <input className={styles.Guests}  type="text" placeholder="Guests"/>
         <button><img src={OVERLAY} alt="Guests" /></button>
-        
-      </div>
-    </section>
+       </div>
+  </section>
   );
 }
 
