@@ -17,7 +17,7 @@ import more_card1 from "../../assets/icon/more_card1.png";
 import more_card2 from "../../assets/icon/more_card2.png";
 import more_card3 from "../../assets/icon/more_card3.png";
 import more_card4 from "../../assets/icon/more_card4.png";
-import bigcard from '../../assets/icon/bigcard.png'
+import bigcard from "../../assets/icon/bigcard.png";
 
 function About() {
   return (
@@ -108,12 +108,24 @@ function About() {
             </p>
           </div>
           <div className={css.tegs}>
-            <p>Tags:</p>
-            <p id={css.color}>Marketing</p>
-            <p id={css.color}>Development</p>
-            <p id={css.color}>HR & Recruting</p>
-            <p id={css.color}>Design</p>
-            <p id={css.color}>Management</p>
+            <div className={css.tegs_corect}>
+              <p>Tags:</p>
+              <div>
+                <p id={css.color}>Development</p>
+              </div>
+              <div>
+                <p id={css.color}>Marketing</p>
+              </div>
+              <div>
+                <p id={css.color}>HR & Recruting</p>
+              </div>
+              <div>
+                <p id={css.color}>Design</p>
+              </div>
+              <div>
+                <p id={css.color}>Management</p>
+              </div>
+            </div>
           </div>
           <div className={css.share}>
             <div>
@@ -153,27 +165,30 @@ function About() {
             </div>
           </div>
           <div className={css.footer}>
-        <div className={css.left_endl}>
-          <img src={avatar} alt="" />
+            <div className={css.left_endl}>
+              <img src={avatar} alt="" />
+            </div>
+            <div className={css.colum}>
+            <div className={css.center_endl}>
+              <h1>Courtney Henry</h1>
+              <p>Curator of Marketing Course</p>
+              <p>
+                Integer tincidunt. Nullam dictum felis eu pede mollis pretium.
+                Maecenas u llamcorper, dui et placerat feugiat, eros pede varius
+                nisi, condimentum viverra felis nunc et lorem..
+              </p>
+            </div>
+            <div className={css.right_endl}>
+              <img src={facebook} alt="" />
+              <img src={instagram} alt="" />
+              <img src={ins} alt="" />
+              <img src={twitter} alt="" />
+            </div>
+            </div>
+          </div>
         </div>
-        <div className={css.center_endl}>
-          <h1>Courtney Henry</h1>
-          <p>Curator of Marketing Course</p>
-          <p>Integer tincidunt. Nullam dictum felis eu pede mollis pretium.
-             Maecenas ullamcorper, dui et placerat feugiat,
-             eros pede varius nisi, condimentum viverra felis nunc et lorem..</p>
-             <p>Member since Mar 15, 2021</p>
-        </div>
-        <div className={css.right_endl}>
-          <img src={facebook} alt="" />
-          <img src={instagram} alt="" />
-          <img src={ins} alt="" />
-          <img src={twitter} alt="" />
-        </div>
-        </div>
-        </div>
-        <div className={css.right}>
-          <div className={css.top_avatar}>
+        <div className={css.right_last}>
+          <div>          <div className={css.top_avatar}>
             <div>
               <img src={avatar} alt="" />
             </div>
@@ -273,19 +288,37 @@ function About() {
             </div>
             <div className={css.flex}>
               <div className={css.between}>
-                <p id={css.color}>Marketing</p>
-                <p id={css.color}>Development</p>
-                <p id={css.color}>Banking</p>
+                <p>
+                  <p id={css.color}>Marketing</p>
+                </p>
+                <p>
+                  <p id={css.color}>Development</p>
+                </p>
+                <p>
+                  <p id={css.color}>Banking</p>
+                </p>
               </div>
               <div className={css.between}>
-                <p id={css.color}>HR & Recruting</p>
-                <p id={css.color}>Design</p>
-                <p id={css.color}>Management</p>
+                <p>
+                  <p id={css.color}>HR</p> & Recruting
+                </p>
+                <p>
+                  <p id={css.color}>Design</p>
+                </p>
+                <p>
+                  <p id={css.color}>Management</p>
+                </p>
               </div>
               <div className={css.between}>
-                <p id={css.color}>Management</p>
-                <p id={css.color}>Community</p>
-                <p id={css.color}>Tutorials</p>
+                <p>
+                  <p id={css.color}>Management</p>
+                </p>
+                <p>
+                  <p id={css.color}>Community</p>
+                </p>
+                <p>
+                  <p id={css.color}>Tutorials</p>
+                </p>
               </div>
             </div>
           </div>
@@ -295,6 +328,8 @@ function About() {
           </div>
         </div>
       </div>
+      </div>
+
     </div>
   );
 }
