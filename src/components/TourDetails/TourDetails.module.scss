@@ -427,26 +427,29 @@
     }
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    font-size: 16px;
-    padding: 3px;
-}
-
-li:before {
-    content: '';
-    display: inline-block;
-    height: 3px;
-    width: 3px;
-    vertical-align: middle;
-    border-radius: 100%;
-    background-color: #000;
-    margin-right: 5px;
+.spisok {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        font-size: 16px;
+        padding: 3px;
+    }
+    
+    li:before {
+        content: '';
+        display: inline-block;
+        height: 3px;
+        width: 3px;
+        vertical-align: middle;
+        border-radius: 100%;
+        background-color: #000;
+        margin-right: 5px;
+    }
+    
 }
 
 .tourIncludes {
@@ -1158,4 +1161,129 @@ li:before {
     transition: 0.5s;
     background: #FA541C;
     color: #FFFFFF;
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        height: 2198px;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .left {
+        width: 335px;
+        padding: 64px 0;
+        height: 1631px;
+    }
+    
+    .right {
+        width: 342px;
+        height: 467px;
+    }
+
+    .right:hover {
+        box-shadow: 0px 0px 20px 7px rgba(145, 158, 171, 1.19);
+    }
+
+    .tourName {
+        width: 335px;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 54px;
+        h3 {
+            width: 180px;
+            font-size: 24px;
+            line-height: 36px;
+            height: 36px;
+        }
+    }
+
+    .tourInfo {
+        width: 335px;
+        height: 248px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tourOverview {
+        width: 335px;
+        height: 502px;
+        flex-direction: column;
+        .tourOverview__info {
+            width: 335px;
+            flex-direction: column;
+            height: 502px;
+        }
+        .tourOverview__left {
+            width: 335px;
+        }
+    }
+
+    .line {
+        width: 335px;
+    }
+
+    .tourDescription {
+        width: 335px;
+        height: 186px;
+        h4 {
+            width: 147px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    
+    .tourHighlights {
+        width: 335px;
+        height: 298px;
+        h4 {
+            width: 134px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .spisok {
+        li {
+            padding: 5px;
+        }
+    }
+
+    .tourIncludes {
+        width: 335px;
+        height: 450px;
+        h4 {
+            width: 119px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .includes {
+            width: 335px;
+            flex-direction: column;
+            height: 500px;
+        }
+    }
+
+    .tourProgram {
+        width: 335px;
+        height: 600px;
+        .day1 {
+            width: 335px;
+            height: 174px;
+        }
+        .day2 {
+            width: 335px;
+            height: 174px;
+        }
+        .day3 {
+            width: 335px;
+            height: 174px;
+        }
+    }
+
+    .social {
+        width: 297px;
+        height: 68px;
+        flex-wrap: wrap;
+    }
 }

@@ -18,7 +18,7 @@ function OurClients() {
         <div className='container'>
             <div className={scss.wrapper}>
                 <div className={scss.top}>
-                        <h2>Our Clients</h2>
+                    <h2>Our Clients</h2>
                     <div className={scss.top_right}>
                         <h4>Enhance Your Life By Having A Sense Of Purpose</h4>
                         <p>Around the world, food-borne illnesses have become increasingly common. In the United States alone, millions of people get a food-related illness each year.</p>
@@ -41,6 +41,24 @@ function OurClients() {
                         <img src={tripadvisor} alt="" />
                     </div>
                     <div className={scss.items4}>
+                        <img src={vimeo} alt="" />
+                        <img src={airbnb} alt="" />
+                        <img src={google} alt="" />
+                    </div>
+                </div>
+                <div className={scss.bottom_mini}>
+                    <div className={scss.left}>
+                        <img src={spotify} alt="" />
+                        <img src={slack} alt="" />
+                        <img src={netflix} alt="" />
+                        <img src={microsoft} alt="" />
+                        <img src={dropbox} alt="" />
+                        <img src={facebook} alt="" />
+                    </div>
+                    <div className={scss.right}>
+                        <img src={heroku} alt="" />
+                        <img src={lenovo} alt="" />
+                        <img src={tripadvisor} alt="" />
                         <img src={vimeo} alt="" />
                         <img src={airbnb} alt="" />
                         <img src={google} alt="" />

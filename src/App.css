@@ -27,10 +27,15 @@ button {
   cursor: pointer;
 }
 
+.yellowStar {
+  fill: yellow;
+}
+
 @media (max-width: 576px) {
   .container {
     padding: 0 20px;
   }
+
 }
 
 .toggle {
@@ -82,3 +87,13 @@ input {
   color: #8b7d77;
 }
 
+  .slick-slider {
+    width: 335px;
+  }
+  .slick-next {
+    left: 188px;
+  }
+  .slick-prev {
+    left: 136px;
+  }
+}

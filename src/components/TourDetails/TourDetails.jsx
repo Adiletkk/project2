@@ -234,6 +234,7 @@ function TourDetails() {
                         </div>
                         <button className={scss.reserve}>Reserve</button>
                     </div>
+                    
                 </div>
             </div>
         </div>
